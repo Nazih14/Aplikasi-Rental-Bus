@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:id;datatype:int,name:nama;datatype:string,name:ttl;datatype:string,name:alamat;datatype:blob,name:tlp;datatype:string,name:username;datatype:string,name:password;datatype:string" />
+	<infoitem key="UD_kontak" value="name:id;datatype:int,name:alamat;datatype:blob,name:tlp;datatype:string,name:sms;datatype:string,name:email;datatype:string" />
+	<infoitem key="UD_berita" value="name:id;datatype:int,name:judul;datatype:blob,name:isi;datatype:blob,name:tgl_terbit;datatype:timestamp,name:penulis;datatype:string" />
+	<infoitem key="UD_rek" value="name:id;datatype:int,name:nama;datatype:string,name:bank;datatype:string,name:no_rek;datatype:string" />
+</info>

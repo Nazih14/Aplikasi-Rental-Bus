@@ -1,0 +1,114 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	padding: 0;
+    margin: 0;
+}
+#dd{
+	 width: auto;
+	background-color: transparent;	
+}
+.wrapper-dropdown {
+	 width: auto;
+	position: relative;
+	margin: 0 auto;
+	cursor: pointer;
+	text-align: right;
+}
+.wrapper-dropdown:after {
+    content: "";
+    width: auto;
+    height: 0;
+    position: absolute;
+    top: 50%;
+}
+
+.wrapper-dropdown .dropdown {
+	right:5%;;
+	text-align: left;
+	width: 100px;
+	/* Size & position */
+    position: absolute;
+	top: 23px;
+	/* Styles */
+    background: white;
+	border-radius: 7px;
+	border: 1px solid rgba(0,0,0,0.17);
+	box-shadow: 0 0 5px rgba(0,0,0,0.1);
+	font-weight: normal;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+	transition: all 0.3s ease-in;
+	list-style: none;
+	/* Hiding */
+    opacity: 0;
+	pointer-events: none;
+}
+
+.wrapper-dropdown .dropdown:after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 74px;
+    right: 10px;
+    border-width: 0 7px 7px 7px;
+    border-style: solid;
+    border-color: #fff transparent;  
+	border-radius: 7px;
+}
+
+.wrapper-dropdown .dropdown:before {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 100%;
+    right: 13px;
+    border-width: 0 8px 8px 8px;
+    border-style: solid;
+    border-color: rgba(0,0,0,0.1) transparent;    
+}
+
+.wrapper-dropdown .dropdown li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #1d9d74;
+    border-bottom: 1px solid #e6e8ea;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+
+
+.wrapper-dropdown .dropdown li:first-of-type a {
+    border-radius: 7px 7px 0 0;
+}
+
+.wrapper-dropdown .dropdown li:last-of-type a {
+    border: none;
+    border-radius: 0 0 7px 7px;
+}
+
+/* Hover state */
+
+.wrapper-dropdown .dropdown li:hover a {
+    background: #f3f8f8;
+}
+
+/* Active state */
+
+.wrapper-dropdown.active .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}

@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Form item wrapper */
+.form-item {
+	width: auto;
+	margin:0 auto;
+  	position:relative;
+}
+/* Form items */
+.form-item input, .form-item textarea, .form-item select {
+	border: 1px solid rgba(0,0,0,.2);
+	padding: 5px;
+	color: #000;
+	outline: none;
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 12px;
+	transition: all .2s ease-out;
+	margin-bottom: 10px;
+}
+.form-item input {
+	width: 200px;
+}
+.form-item select {
+	width: 150px;
+}
+.form-item textarea {
+	height: 100px;
+	width: 400px;
+}
+.form-item input:focus, .form-item textarea:focus, .form-item select:focus{
+	border: 1px solid #de424f;
+	transition: all .2s ease-out;
+}
+.submit {
+	font-size: 12px;
+	font-weight: bold;
+	background: #de424f;
+	color: #FFF;
+	cursor: pointer;
+	width: 100px;
+	padding: 5px;
+	border: 1px solid rgba(0,0,0,.1);
+	transition: all .2s ease-out;
+}
+.submit:hover {
+	background: #F5F5F5;
+	color: #de424f;
+	width: 100px;
+	transition: all .2s ease-out;
+}
+/* Tooltip */
+.form-item label {
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+    margin-bottom: 2em;
+    font-size: 11px;
+    font-weight: 700;
+    color: #FFF;
+    white-space: nowrap;
+    line-height: normal;
+    padding: .6em 1em;
+    background-color: #000;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    visibility: hidden;
+    opacity: 0;
+/* Transition effect */
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+/* Tooltip arrow */
+.form-item label:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    position: absolute;
+    top: 100%;
+    left: 2em;
+    border-top-color: #000;
+}
+
+/* Show tooltip when the form is being focused */
+.form-item input:focus + label,.form-item textarea:focus + label {
+	visibility: visible;
+	opacity: 1;
+	margin-bottom: -0.5em;
+}

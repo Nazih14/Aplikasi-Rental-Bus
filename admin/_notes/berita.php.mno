@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_paket" value="name:id;datatype:int,name:tujuan;datatype:blob,name:seat_a;datatype:int,name:seat_b;datatype:int,name:kategori;datatype:string" />
+	<infoitem key="UD_nb" value="name:id;datatype:int,name:tujuan;datatype:blob,name:seat_a;datatype:int,name:seat_b;datatype:int,name:kategori;datatype:string" />
+	<infoitem key="UD_berita" value="name:id;datatype:int,name:judul;datatype:blob,name:isi;datatype:blob,name:tgl_terbit;datatype:timestamp,name:penulis;datatype:string" />
+</info>

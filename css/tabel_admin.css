@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+#table{
+	width: 100%;
+	border-top:1px solid rgba(0,0,0,0.17);
+	border-left:1px solid rgba(0,0,0,0.17);
+}
+#td_judul{
+	background: -moz-linear-gradient(top, #FBFBFB, #f1f1f1);
+	background: -ms-linear-gradient(top, #FBFBFB, #f1f1f1);
+	background: -o-linear-gradient(top, #FBFBFB, #f1f1f1);
+	background: -webkit-linear-gradient(top, #FBFBFB, #f1f1f1);
+	background: linear-gradient(top, #FBFBFB, #f1f1f1);
+	font-weight: bold;
+	color: #768185;
+	text-align: center;
+	text-transform: uppercase;
+	height: 30px;
+	line-height: 30px;
+	border-right:1px solid rgba(0,0,0,0.17);
+	border-bottom:1px solid rgba(0,0,0,0.17);
+}
+#td_isi{
+	padding: 10px;
+	border-right:1px solid rgba(0,0,0,0.17);
+	border-bottom:1px solid rgba(0,0,0,0.17);
+}
+#table tr#show:nth-child(2n+0) {
+  background: #F9F9F9;
+  transition: all .2s ease-out;
+}
+#table tr#show:hover, tr#show:nth-child(2n+0):hover {
+  background: #EEF7FB;
+  transition: all .2s ease-out;
+}
+#tambah{
+	margin-bottom: 10px;
+}
+#a_tambah{
+	cursor: pointer;
+	font-weight: bold;
+	color: #768185;
+	padding: 2px;
+	border: 1px solid rgba(0,0,0,0.17);
+	background: -moz-linear-gradient(top, #FBFBFB, #f1f1f1);
+	background: -ms-linear-gradient(top, #FBFBFB, #f1f1f1);
+	background: -o-linear-gradient(top, #FBFBFB, #f1f1f1);
+	background: -webkit-linear-gradient(top, #FBFBFB, #f1f1f1);
+	background: linear-gradient(top, #FBFBFB, #f1f1f1);
+	transition: all .3s ease-out;
+}
+#a_tambah:hover{
+	background:#768185;
+	color: #FFF;
+	-webkit-box-shadow: inset 0 1px 3px -1px rgba(0,0,0,.2);
+	-moz-box-shadow: inset 0 1px 3px -1px rgba(0,0,0,.2);
+	box-shadow: inset 0 1px 3px -1px rgba(0,0,0,.2);
+	transition: all .3s ease-out;
+}
+#a_aksi{
+	color: #768185;
+	transition: all .3s ease-out;
+}
+#a_aksi:hover{
+	color: #de424f;
+	transition: all .3s ease-out;
+}
+#untable{
+	font-size: 14px;
+}
+#untable td{
+	padding: 10px;
+}

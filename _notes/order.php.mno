@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sql" value="name:id;datatype:int,name:kode_order;datatype:string,name:tgl_order;datatype:timestamp,name:pemesan;datatype:string,name:alamat;datatype:blob,name:tlp;datatype:string,name:tujuan;datatype:string,name:jml_bus_a;datatype:int,name:jml_bus_b;datatype:int,name:tgl_berangkat;datatype:date,name:lama_pjln;datatype:int" />
+	<infoitem key="UD_sql2" value="name:id;datatype:int,name:tujuan;datatype:blob,name:seat_a;datatype:int,name:seat_b;datatype:int,name:kategori;datatype:string" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_paket" value="name:tujuan;datatype:blob,name:seat_a;datatype:int,name:seat_b;datatype:int" />
+	<infoitem key="UD_nb" value="name:tujuan;datatype:blob,name:seat_a;datatype:int,name:seat_b;datatype:int" />
+</info>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_kontak" value="name:id;datatype:int,name:alamat;datatype:blob,name:tlp;datatype:string,name:sms;datatype:string,name:email;datatype:string" />
+	<infoitem key="UD_admin" value="name:id;datatype:int,name:nama_depan;datatype:string,name:nama_belakang;datatype:string,name:ttl;datatype:string,name:alamat;datatype:blob,name:tlp;datatype:string,name:username;datatype:string,name:password;datatype:string" />
+</info>

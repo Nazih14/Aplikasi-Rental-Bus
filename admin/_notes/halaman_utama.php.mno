@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_tentang" value="name:id;datatype:int,name:judul;datatype:blob,name:isi;datatype:blob,name:kategori;datatype:string" />
+	<infoitem key="UD_utama" value="name:id;datatype:int,name:judul;datatype:blob,name:isi;datatype:blob,name:kategori;datatype:string" />
+</info>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_kontak" value="name:id;datatype:int,name:alamat;datatype:blob,name:tlp;datatype:string,name:sms;datatype:string,name:email;datatype:string" />
+</info>

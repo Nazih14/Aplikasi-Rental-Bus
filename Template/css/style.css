@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background: #eeeeee;
+}
+.container{
+	width: 100%;
+}
+#header{
+	width: 96%;
+	height: 70px;
+	margin: 10px 2% auto;
+}
+#navigasi{
+	width: 96%;
+	height: 40px;
+	margin: 10px 2% auto;
+}
+#sidebar{
+	float: left;
+	width: 21%;
+	margin: 10px 2% 10px 0;
+	
+	
+}
+#konten{
+	float: left;
+	width: 73%;
+	margin: 10px 2% auto;
+	
+}
+#footer{
+	clear: both;
+	width: 96%;
+	margin: 0 2% 10px 2%;
+}
+#header, #navigasi, #sidebar, #konten, #footer {
+	background: #FFF;
+}

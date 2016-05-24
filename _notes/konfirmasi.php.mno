@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sql2" value="name:id;datatype:int,name:nama;datatype:string,name:bank;datatype:string,name:no_rek;datatype:string" />
+	<infoitem key="UD_sql" value="name:id;datatype:int,name:kode_order;datatype:string,name:jml_transfer;datatype:int,name:bank;datatype:string,name:nama;datatype:string,name:no_rek;datatype:int,name:ke_rek;datatype:string" />
+</info>

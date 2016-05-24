@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sql" value="name:id;datatype:int,name:tujuan;datatype:blob,name:seat_a;datatype:int,name:seat_b;datatype:int,name:kategori;datatype:string" />
+</info>

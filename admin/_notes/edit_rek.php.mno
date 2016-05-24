@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_sql" value="name:id;datatype:int,name:nama;datatype:string,name:bank;datatype:string,name:no_rek;datatype:string" />
+</info>
